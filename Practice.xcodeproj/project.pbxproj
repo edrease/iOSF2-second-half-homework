@@ -15,6 +15,9 @@
 		9E0148251B2CCEEC00B6A784 /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0148241B2CCEEC00B6A784 /* PracticeTests.swift */; };
 		9E0148351B2E0CE500B6A784 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0148341B2E0CE500B6A784 /* Person.swift */; };
 		9E0148371B2E875C00B6A784 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0148361B2E875C00B6A784 /* DetailViewController.swift */; };
+		9E42797B1B393B340089518E /* quattro_bajeena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E42797A1B393B340089518E /* quattro_bajeena.jpg */; };
+		9E42797D1B3F4D9E0089518E /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E42797C1B3F4D9E0089518E /* PersonCell.swift */; };
+		9E42797F1B3F82D00089518E /* PeopleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E42797E1B3F82D00089518E /* PeopleList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		9E0148241B2CCEEC00B6A784 /* PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTests.swift; sourceTree = "<group>"; };
 		9E0148341B2E0CE500B6A784 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9E0148361B2E875C00B6A784 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9E42797A1B393B340089518E /* quattro_bajeena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quattro_bajeena.jpg; sourceTree = "<group>"; };
+		9E42797C1B3F4D9E0089518E /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		9E42797E1B3F82D00089518E /* PeopleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PeopleList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +99,10 @@
 		9E01480C1B2CCEEC00B6A784 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E42797A1B393B340089518E /* quattro_bajeena.jpg */,
 				9E0148171B2CCEEC00B6A784 /* LaunchScreen.xib */,
 				9E01480D1B2CCEEC00B6A784 /* Info.plist */,
+				9E42797E1B3F82D00089518E /* PeopleList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 			children = (
 				9E0148121B2CCEEC00B6A784 /* Main.storyboard */,
 				9E0148151B2CCEEC00B6A784 /* Images.xcassets */,
+				9E42797C1B3F4D9E0089518E /* PersonCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -222,9 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E42797F1B3F82D00089518E /* PeopleList.plist in Resources */,
 				9E0148141B2CCEEC00B6A784 /* Main.storyboard in Resources */,
 				9E0148191B2CCEEC00B6A784 /* LaunchScreen.xib in Resources */,
 				9E0148161B2CCEEC00B6A784 /* Images.xcassets in Resources */,
+				9E42797B1B393B340089518E /* quattro_bajeena.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E0148351B2E0CE500B6A784 /* Person.swift in Sources */,
+				9E42797D1B3F4D9E0089518E /* PersonCell.swift in Sources */,
 				9E0148111B2CCEEC00B6A784 /* ListViewController.swift in Sources */,
 				9E01480F1B2CCEEC00B6A784 /* AppDelegate.swift in Sources */,
 				9E0148371B2E875C00B6A784 /* DetailViewController.swift in Sources */,
@@ -441,6 +453,7 @@
 				9E01482A1B2CCEEC00B6A784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E01482B1B2CCEEC00B6A784 /* Build configuration list for PBXNativeTarget "PracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				9E01482D1B2CCEEC00B6A784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
